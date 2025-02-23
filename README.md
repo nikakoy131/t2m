@@ -12,7 +12,7 @@ dokku domains:set t2m t2m.example.com
 where `t2m.example.com` is your domain for this app.
 
 ```sh
-dokku git:sync t2m https://github.com/nikakoy131/t2m gh-pages
+dokku git:sync --build t2m https://github.com/nikakoy131/t2m gh-pages
 ```
 
 This will build and deploy your app.
